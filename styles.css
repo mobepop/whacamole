@@ -36,8 +36,8 @@
     align-items: center;
     justify-content: flex-start;
     position: absolute;
-    top: 280px;
-    right: 280px;
+    top: 200px;
+    right: 200px;
 }
 
 button{
@@ -45,7 +45,7 @@ button{
     width: 12rem;
     padding: 12px 5px;
     border: 1px, solid, black;
-    background-color: gray
+    background-color: rgb(199, 191, 191);
     box-shadow: 1px 1px 3px black;
 }
 
