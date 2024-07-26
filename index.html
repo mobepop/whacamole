@@ -4,25 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Whack A Mole</title>
+    <title>Whack-A-Mole</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <div class="description">
-                <h1>Whack A Mole</h1>
-                <h2 id="score">Let's Go, your total score is: 0</h2>
-                <div>
-                    <button id="startNewGame">Start Game</button>
-                </div>
-            </div>
-            <div class="timer">
-                <h2 id="timeLeft">Time Left: 60</h2>
-            </div>
+            <h1> Welcome to Whack A Mole</h1>
+            <h2 class="score">Let's Go, your total score is: <span id="score">0</span></h2>
+            <button id="start-button">Start Game</button>
+        </div>
+        <div class="timer">
+            <h2 id="time-text">Time Left</h2>
+            <h2 id="time-left">30</h2>
         </div>
 
-        <div class="game_board">
+        <div class="game-board">
             <div class="block" id="1"></div>
             <div class="block" id="2"></div>
             <div class="block" id="3"></div>
@@ -39,6 +36,6 @@
     </div>
 
 
-    <script src="script.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
